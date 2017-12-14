@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>60</x>
+      <y>110</y>
+      <w>170</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>package :: ClassName
+--
+data members
+
+--
+methods/constructors</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>60</x>
+      <y>230</y>
+      <w>320</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>package :: AbstractClass or Interface
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>60</x>
+      <y>30</y>
+      <w>170</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Pokeman Project Design
+Makai Garcia
+bg=cyan
+12.14.17</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>800</x>
+      <y>70</y>
+      <w>370</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>pokemon.model :: Pokeman
+--
+-name : String
+- number : int
+- canEvolve : boolean
+- health : int
+- attackPoints : int
+- enhancementModifier : double
+--
+methods/constructors </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>190</x>
+      <y>430</y>
+      <w>320</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>pokemon.model :: Fire
+--
+
++ sayDerpy() : void
++ writeDerpy() : String
++ countDerpy(String) : int
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>920</x>
+      <y>440</y>
+      <w>320</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>pokemon.model :: Psychic
+--
+
++ sayDerpy() : void
++ writeDerpy() : String
++ countDerpy(String) : int
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>590</x>
+      <y>440</y>
+      <w>320</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>pokemon.model :: Dragon
+--
+
++ sayDerpy() : void
++ writeDerpy() : String
++ countDerpy(String) : int
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
