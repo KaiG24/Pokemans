@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>60</x>
-      <y>110</y>
+      <x>70</x>
+      <y>100</y>
       <w>170</w>
       <h>110</h>
     </coordinates>
@@ -20,10 +20,10 @@ methods/constructors</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>60</x>
-      <y>230</y>
-      <w>320</w>
-      <h>120</h>
+      <x>70</x>
+      <y>220</y>
+      <w>310</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>package :: AbstractClass or Interface
 --
@@ -35,8 +35,8 @@ methods/constructors</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>60</x>
-      <y>30</y>
+      <x>70</x>
+      <y>20</y>
       <w>170</w>
       <h>70</h>
     </coordinates>
@@ -49,8 +49,8 @@ bg=cyan
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>800</x>
-      <y>70</y>
+      <x>480</x>
+      <y>20</y>
       <w>370</w>
       <h>210</h>
     </coordinates>
@@ -63,47 +63,47 @@ bg=cyan
 - attackPoints : int
 - enhancementModifier : double
 --
-methods/constructors </panel_attributes>
++ Pokeman(int, String) : constructor</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>190</x>
-      <y>430</y>
+      <x>70</x>
+      <y>300</y>
       <w>320</w>
       <h>120</h>
     </coordinates>
     <panel_attributes>pokemon.model :: Fire
 --
 
-+ sayDerpy() : void
-+ writeDerpy() : String
-+ countDerpy(String) : int
++ magma storm() : String
++ flamethrower() : String
++ fire fang() : String
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>920</x>
-      <y>440</y>
+      <x>70</x>
+      <y>580</y>
       <w>320</w>
       <h>120</h>
     </coordinates>
     <panel_attributes>pokemon.model :: Psychic
 --
 
-+ sayDerpy() : void
-+ writeDerpy() : String
-+ countDerpy(String) : int
++ cosmic power() : String
++ confusion() : String
++ hyperspace hole() : String
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>590</x>
+      <x>70</x>
       <y>440</y>
       <w>320</w>
       <h>120</h>
@@ -111,10 +111,100 @@ methods/constructors </panel_attributes>
     <panel_attributes>pokemon.model :: Dragon
 --
 
-+ sayDerpy() : void
-+ writeDerpy() : String
-+ countDerpy(String) : int
++ dragon hammer() : String
++ dragon rush() : String
++ dragon rage() : String
 </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>800</x>
+      <y>590</y>
+      <w>230</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>pokemon.model Entei
+--
+
+--
+Entei(int, String) : constructor</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>230</y>
+      <w>270</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>pokemon.model Mewtwo
+--
+
+--
+Mewtwo(int, String) : constructor</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>430</x>
+      <y>310</y>
+      <w>270</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>pokemon.model Kyurem
+--
+
+--
+Kyurem(int, String) : constructor</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>710</x>
+      <y>350</y>
+      <w>290</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>pokemon.model Dialga
+--
+
+--
+Dialga(int, String) : constructor</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>530</x>
+      <y>480</y>
+      <w>290</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>pokemon.model Palkia
+--
+
+--
+Palkia(int, String) : constructor</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>990</x>
+      <y>480</y>
+      <w>260</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>pokemon.model Rayquaza
+--
+
+--
+Rayquaza(int,String) : constructor </panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>

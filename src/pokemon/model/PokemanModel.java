@@ -9,7 +9,7 @@ public abstract class PokemanModel
 	private String name;
 	private boolean canEvolve;
 	
-	public Pokeman (int number, String name)
+	public void Pokeman (int number, String name)
 	{
 		this.name = name;
 		this.number = number;
@@ -19,5 +19,6 @@ public abstract class PokemanModel
 	{
 		Class<?> [] types = getClass().getInterfaces();
 		String [] pokeTypes = new String[types.length];
+		return pokeTypes;
 	}
 }
