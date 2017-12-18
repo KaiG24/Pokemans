@@ -32,4 +32,15 @@ public class Palkia extends Pokemon implements Dragon
 			return "I'm sorry that you got wrecked";
 		}
 	}
+	public String dragonRush(boolean sprint)
+	{
+		if(sprint = true)
+		{
+			return "too fast for you";
+		}
+		else
+		{
+			return "next time keep up";
+		}
+	}
 }
