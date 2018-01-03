@@ -8,5 +8,6 @@ public class PokemanRunner
 	{
 		PokemanController app = new PokemanController();
 		app.start;
+		
 	}
 }
