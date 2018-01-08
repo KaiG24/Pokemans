@@ -1,6 +1,6 @@
 package pokemon.model;
 
-public class Mewtwo extends Pokemon implements Psychic
+public class Mewtwo extends Pokeman implements Psychic
 {
 	public Mewtwo()
 	{
@@ -43,6 +43,27 @@ public class Mewtwo extends Pokemon implements Psychic
 	{
 		// TODO Auto-generated method stub
 		
+	}
+
+	@Override
+	public String cosmicPower()
+	{
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String confusion()
+	{
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String hyperspaceHole()
+	{
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
 	

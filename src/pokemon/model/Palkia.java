@@ -43,4 +43,25 @@ public class Palkia extends Pokemon implements Dragon
 			return "next time keep up";
 		}
 	}
+
+	@Override
+	public String dragonHammer()
+	{
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String dragonRush()
+	{
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String dragonRage()
+	{
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

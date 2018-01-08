@@ -1,6 +1,16 @@
 package pokemonPanel;
 
-public class PokemanPanel extends JPanel
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+import javax.swing.SpringLayout;
+
+import pokemonController.PokemanController;
+
+public class PokedexPanel extends JPanel
 {
 	private PokemanController appController;
 	private SpringLayout appLayout; 
@@ -25,5 +35,13 @@ public class PokemanPanel extends JPanel
 	private JButton clearButton;
 	private JComboBox pokedexDropdown;
 	
-	private JPanel 
+	private JPanel firstType;
+	private JPanel secondType;
+	private JPanel thirdType;
+	private JPanel fourthType;
+	
+	public void updatePokedexInfo(int index)
+	{
+		nameField.setText(appController.getPokedex().);
+	}
 }

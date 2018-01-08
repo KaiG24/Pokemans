@@ -41,4 +41,25 @@ public class Entei extends Pokemon implements Fire
 			return  "if you can't handle the flames, get out of the kitchen"; 
 		}
 	}
+
+	@Override
+	public String magmaStorm()
+	{
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String flamethrower()
+	{
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String fireFang()
+	{
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
