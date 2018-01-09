@@ -42,6 +42,7 @@ public class PokedexPanel extends JPanel
 	
 	public void updatePokedexInfo(int index)
 	{
-		nameField.setText(appController.getPokedex().);
+		nameField.setText(appController.getPokedex().getName());
+		numberField.setText();
 	}
 }
