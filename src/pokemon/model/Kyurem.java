@@ -1,6 +1,6 @@
 package pokemon.model;
 
-public class Kyurem extends Pokemon implements Dragon
+public class Kyurem extends PokemanModel implements Dragon
 {
 	public Kyurem(int number, String name)
 	{

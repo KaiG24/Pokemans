@@ -1,6 +1,6 @@
 package pokemon.model;
 
-public class Mewtwo extends Pokeman implements Psychic
+public class Mewtwo extends PokemanModel implements Psychic
 {
 	public Mewtwo()
 	{

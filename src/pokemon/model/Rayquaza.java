@@ -1,8 +1,8 @@
 package pokemon.model;
 
-public class Rayquaza extends Pokemon implements Dragon
+public class Rayquaza extends PokemanModel implements Dragon
 {
-	public Rayquaza(int number, String name)
+	public Rayquaza()
 	{
 		super(number, name);
 }

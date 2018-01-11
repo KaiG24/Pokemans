@@ -1,6 +1,6 @@
 package pokemon.model;
 
-public abstract class Dialga extends Pokemon implements Dragon
+public abstract class Dialga extends PokemanModel implements Dragon
 {
 	public Dialga(int number, String name)
 	{

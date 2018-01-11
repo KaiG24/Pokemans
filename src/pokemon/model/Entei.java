@@ -1,6 +1,6 @@
 package pokemon.model;
 
-public class Entei extends Pokemon implements Fire
+public class Entei extends PokemanModel implements Fire
 {
 	public Entei(int number, String name)
 	{

@@ -1,6 +1,6 @@
 package pokemon.model;
 
-public class Palkia extends Pokemon implements Dragon
+public class Palkia extends PokemanModel implements Dragon
 {
 	public Palkia(int number, String name)
 	{
