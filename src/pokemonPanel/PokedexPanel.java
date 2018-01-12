@@ -44,6 +44,6 @@ public class PokedexPanel extends JPanel
 	{
 		nameField.setText(appController.getPokedex().getName());
 		numberField.setText(((Object) appController.getPokedex()).get(index).getNumber()+"");
-		attackField.setText(appController.getPokedex());
+		attackField.setText(appController.getPokedex().get(index).getAttackPoints);
 	}
 }

@@ -15,6 +15,7 @@ public class PokemanController
 {
 	private List<PokemanModel> pokedex;
 	private PokemanFrame appFrame;
+	public Object start;
 	
 	public PokemanController()
 	{
